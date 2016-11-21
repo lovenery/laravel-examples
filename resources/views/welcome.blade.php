@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Laravel Examples</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -46,17 +46,25 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 5em;
             }
 
-            .links > a {
+            .links > .link {
                 color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
+                padding: 0 1.5em;
+                font-size: 1em;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
-                text-transform: uppercase;
+            }
+            .links > .ref {
+                color: #636b6f;
+                font-size: 0.8em;
+                text-decoration: none;
+            }
+
+            .links {
+                margin-bottom: 1em;
             }
 
             .m-b-md {
@@ -79,15 +87,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel Examples
                 </div>
-
+                <div class="links m-b-md">
+                    <a class="link" href="https://laravel.com/docs">Documentation</a>
+                    <a class="link" href="https://laravel.tw/docs">中文文件</a>
+                    <a class="link" href="https://github.com/lovenery/laravel-examples">GitHub</a>
+                </div>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a class="link" href="{{ url('instagram') }}">Instagram API</a>
+                    <a class="ref" href="http://itsolutionstuff.com/post/laravel-5-instagram-api-tutorial-with-exampleexample.html">itsolutionstuff.com</a>
                 </div>
             </div>
         </div>
