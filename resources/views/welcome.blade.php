@@ -98,6 +98,10 @@
                     <a class="link" href="{{ url('instagram') }}">Instagram API</a>
                     <a class="ref" href="http://itsolutionstuff.com/post/laravel-5-instagram-api-tutorial-with-exampleexample.html">itsolutionstuff.com</a>
                 </div>
+                <div class="links">
+                    <a class="link" href="{{ url('zipcode') }}">Taiwan ZipCode API</a>
+                    <a class="ref" href="http://data.gov.tw/">data.gov.tw</a>
+                </div>
             </div>
         </div>
     </body>
